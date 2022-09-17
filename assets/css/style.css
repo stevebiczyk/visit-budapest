@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #252525;
+}
+
+#main-logo {
+    font-family: Montserrat, sans-serif;
+    margin-left: 30px;
+    font-size: 200%;
+    color: #34495e;
+    text-align: left;
+    float: left;
+    text-transform: uppercase;
+}
+
+#main-nav {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+#main-nav li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#main-nav a:hover {
+	color: #718daa;
+}
+
+/* 
+ .main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+}
+
+/* navigation bar */
+
+/* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+
+
+/*.main-navbar {
+    margin-top: 5px;
+}
+
+.main-logo a, .main-navbar a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: right;
+	display: block;
+    color: #34495e;
+	font-size: .99em;
+}
+
+
+
+#index-image {
+    width: 100%;
+    border: 0;
+    position: relative;
+    overflow: auto;
+}
+*/
