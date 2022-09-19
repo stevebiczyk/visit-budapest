@@ -18,15 +18,23 @@ body {
 h1, h2 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
-    font-weight: 300;
+    font-weight: 400;
     color: #252525;
+}
+
+.header2 {
+    text-align: left;
+    padding: 20px 0;
+   /* margin: 20px 0; */
+    font-size: 250%;
+    font-weight: 300;
 }
 
 
 #main-logo {
     font-family: Montserrat, sans-serif;
     margin-left: 30px;
-    font-size: 250%;
+    font-size: 300%;
     color: chocolate;
     text-align: left;
     float: left;
@@ -85,11 +93,21 @@ h1, h2 {
      color: beige;
 }
 
-.small-image {
-    margin:10px 50px;
+.places-row {
+    display: flex;
+  }
+
+  .places-column {
+    flex: 33.33%;
+    padding: 20px;
+    margin: 20px 40px;
+  }
+
+/* .small-image {
+    margin:0;
 }
 
-/* 
+
 
 #main-header {
     padding-top: .5em;
