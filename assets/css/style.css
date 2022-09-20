@@ -74,7 +74,7 @@ h1, h2 {
 }
 
 #main-image-section {
-    height: 750px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 }
@@ -86,22 +86,22 @@ h1, h2 {
 }
 
 #main-image2 {
-    height: 6000px;
+    height: 600px;
     width: 100%;
-    background: url('/assets/images/visit_budapest.webp') center center;
+    background: url('/assets/images/visit_budapest.webp') no-repeat center left;
 }
 
 #main-image3 {
-    height: 6000px;
+    height: 600px;
     width: 100%;
-    background: url('/assets/images/szechenyi-bath.jpg') center center;
+    background: url('/assets/images/szechenyi-bath3.jpg') no-repeat center center;
 }
 
-#main-caption {
+#main-caption1 p {
      font-size: 150%;
      bottom: 50px;
-     right: 50px;
-     position: absolute;
+     left: 20px;
+     position:relative;
      color: beige;
 }
 
