@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
+/* Remove default styling */
 *{
     margin:0;
     padding:0;
@@ -27,7 +28,7 @@ h1, h2 {
     padding: 20px 0;
    /* margin: 20px 0; */
     font-size: 250%;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
