@@ -81,8 +81,12 @@ h1, h2 {
 }
 
 #main-image1 {
-    height: 600px;
+    
     width: 100%;
+    Height: 100vh;
+    min-height: 600px;
+    display: block;
+    background-size: 150% auto;
     background: url('/assets/images/budapest-lead.jpg') no-repeat center center;
 }
 
@@ -100,23 +104,27 @@ h1, h2 {
 
 #main-caption1 p {
      font-size: 150%;
-     bottom: 50px;
-     left: 20px;
-     position:relative;
+     bottom: 6.25rem;
+     left: 4rem;
+     position: absolute;
      color: beige;
 }
 
 .places-row {
     display: flex;
+    text-align: center;
   }
 
-  .places-column {
+.places-column {
     flex: 33.33%;
     padding: 20px;
     margin: 20px 40px;
+    text-decoration: none;
   }
 
-/* .small-image {
+/* @media (max-width: 991px)
+
+ .small-image {
     margin:0;
 }
 
