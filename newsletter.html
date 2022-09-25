@@ -12,46 +12,71 @@
 </head>
 
 <body>
-    <header>
+    <header class="main-header">
         <a href="index.html">
-            <h1 id="main-title">Visit Budapest</h1>
+            <h1 id="main-logo">Visit Budapest</h1>
         </a>
         <!--Navigation-->
         <nav>
-            <ul id="navbar">
+            <ul id="main-nav">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Places to see</a>
+                    <a href="places-to-see.html">Places to see</a>
                 </li>
                 <li>
-                    <a href="#">Things to do</a>
+                    <a href="things-to-do.html">Things to do</a>
                 </li>
                 <li>
-                    <a href="#">Getting Around</a>
+                    <a href="getting-around.html">Getting Around</a>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Newsletter</a>
+                    <a href="newsletter.html">Newsletter</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="index-image">
-        <img src="">
+
+    <section id="main-image-section">
+        <div id="main-image1"></div>
+        <div id="main-caption1">
+            <p>The Parlament and the Danube from Castle-hill</p>
+        </div>
     </section>
-    <section>
-        Introduction
-    </section>
-    <section>
-        Brief History
+    <section class="signup-section">
+        <h2>Sign up to our newsletter!</h2>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <label for="fname" >First Name</label>
+            <input id="fname" class="text-input" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
+            
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="signup-button" type="submit" value="Sign Up">
+        </form>
     </section>
     <footer>
-        social links here
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
     </footer>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
