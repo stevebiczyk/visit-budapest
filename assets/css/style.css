@@ -92,7 +92,7 @@ h1, h2 {
     min-height: 600px;
     display: block;
     background-size: 150% auto;
-    background: url('/assets/images/budapest-lead.jpg') no-repeat center center;
+    background: url('/assets/images/budapest-lead.jpg') no-repeat center center / cover;
 }
 
 #main-image2 {
@@ -101,7 +101,7 @@ h1, h2 {
     min-height: 600px;
     display: block;
     background-size: 150% auto;
-    background: url('/assets/images/visit_budapest.webp') no-repeat center center;
+    background: url('/assets/images/visit_budapest.webp') no-repeat center center / cover;
 }
 
 #main-image3 {
@@ -110,7 +110,7 @@ h1, h2 {
     min-height: 600px;
     display: block;
     background-size: auto;
-    background: url('/assets/images/szechenyi-bath.jpg') no-repeat center center;
+    background: url('/assets/images/szechenyi-bath.jpg') no-repeat center center / cover;
 }
 
 /* #main-caption1 {
@@ -204,9 +204,8 @@ h1, h2 {
     clear: left;
     max-width: 80%;
     height: 40rem;
-    /* background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
     background-size: cover;
-    background-position: center;*/
+    background-position: center;
 }
 
 .signup-form {
@@ -252,6 +251,8 @@ h1, h2 {
 
 /* Media Queries*/
 
+/* Media Queries for screen sizes of 1245px or less */
+
 @media screen and (max-width: 1245px) {
 
     .index-section {
@@ -266,6 +267,20 @@ h1, h2 {
         height: auto;
         margin: 0 auto; 
     } 
+
+    .left-text, .left-image {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .right-text, .right-image {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
 
      /* .places-row > div {
         clear: both;
@@ -311,5 +326,12 @@ h1, h2 {
     width: 100%;
     text-align: center;
     margin: 10px auto;
+}
+
+.signup-form {
+    display: block;
+    min-width: 500px;
+    margin: 0 auto;
+    text-align: left;
 }
   }
