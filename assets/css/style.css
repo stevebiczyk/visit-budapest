@@ -14,7 +14,7 @@ body {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    margin: 2rem;
+    margin: 0 2rem;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -127,12 +127,13 @@ h1, h2 {
     text-decoration: none;
 }
 
- .index-section {
+ /* .index-section {
     max-width: 100%;
-} 
+} */
 
  .places-row {
     display: flex;
+    margin: 0 auto;
    /* flex-flow: row wrap; */
   } 
 
