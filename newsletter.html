@@ -29,6 +29,9 @@
                     <a href="things-to-do.html">Things to do</a>
                 </li>
                 <li>
+                    <a href="where-to-stay.html">Where to stay</a>
+                </li>
+                <li>
                     <a href="getting-around.html">Getting Around</a>
                 </li>
                 <li>
@@ -45,23 +48,40 @@
         </div>
     </section>
     <section class="signup-section">
-        <h2>Sign up to our newsletter!</h2>
+        <h2 class="header2">Sign up to our newsletter!</h2>
+        <fieldset>
+            <legend>Your Details</legend>
+        </fieldset>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <label for="fname" >First Name</label>
             <input id="fname" class="text-input" name="first_name" type="text" required>
             
-            <label for="lname">Last Name</label>
+            <label for="lname">Surname</label>
             <input id="lname" class="text-input" name="last_name" type="text" required>
             
             <label for="email">Email Address</label>
             <input type="email" class="text-input" id="email" name="email_address" required>
-            
-            <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
+            <h3>Let us know what you would like to know more about?</h3>
+            <div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">History, Culture & Architecture</label>
+			</div>
+            <div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">Activities</label>
+			</div>
+            <div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">Family Days Out</label>
+			</div>
+            <div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">Romantic Excursions</label>
+			</div>
+            <div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">Food & Drink</label>
+			</div>
             
             <input class="signup-button" type="submit" value="Sign Up">
         </form>
