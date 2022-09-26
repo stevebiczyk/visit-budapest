@@ -21,7 +21,7 @@ body {
 }
 
 
-h1, h2 {
+h1 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
     font-weight: 400;
@@ -135,7 +135,7 @@ h1, h2 {
  .places-row {
     display: flex;
     margin: 0 auto;
-   /* flex-flow: row wrap; */
+    flex-flow: row wrap; 
   } 
 
 .places-column {
@@ -160,12 +160,17 @@ h1, h2 {
     text-decoration: none;
   }
 
- /* .places-row::after:: {
+  .places-row::after {
     content: "";
     clear: both;
     display: table;
 
-  } */
+  } 
+
+  .places-image {
+    width: 450px;
+    height: 300px;
+  }
 
   .left-text {
     width: 60%;
@@ -260,12 +265,12 @@ h1, h2 {
         margin: 0 auto; 
     }
 
-
      .places-row {
         display: block;
         width: 100%;
         height: auto;
         margin: 0 auto; 
+        padding: 10px;
     } 
 
     .left-text, .left-image {
@@ -282,19 +287,15 @@ h1, h2 {
         margin: 0 auto;
     }
 
-     /* .places-row > div {
+      /*.places-row > div {
         clear: both;
-        width: 400px;
-        max-height: 300px;
+        min-width: 360px;
+        height: 300px;
         float: left;
-        padding: 0;
-        margin: 20px 0;
-    }
+        padding: 10px;
+        margin: 0 auto;
+    } */
 
-    div > p {
-        width: 100;
-        text-align: center;
-    }*/
 
 }
 
@@ -304,16 +305,22 @@ h1, h2 {
 
   @media screen and (max-width: 950px) {
 
-    #main-nav {
-        clear: both;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+#main-nav {
+    clear: both;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
 
  }
 
-
+.places-column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    margin-bottom: .5em;
+} 
 
 #main-header {
     padding-top: .5em;
@@ -322,10 +329,10 @@ h1, h2 {
 }
 
  
-.header2, .header > p {
+.header2, .header2 > p {
     width: 100%;
     text-align: center;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .signup-form {
