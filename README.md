@@ -4,11 +4,15 @@ The Visit Budapest website was created to help people plan a short visit to Buda
 I hope you'll find the information contained within both useful and inspiring and you'll enjoy your visit to Budapest!
  
 
-[Homepage](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-top.jpg)
+![Homepage](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-top.jpg)
 
 ## Features 
 
-- The website consists of six pages. The landing page has several options to help with navigation. They include a navigation bar at the top as well as multiple pictures that link to the relevant part of their respective pages. The following 3 pages provide the bulk of the content and provide information about the selected places and activities. The following page, Getting Around aims to direct the user towards using public transport and provides snippets of information regarding each type. On the final the user will find a form to sign up for a newsletter and it gives various options to chose for personalised recommendations. 
+- The website consists of six pages. Each page includes a high resolution image near the top to show the some of the most impressive sights. 
+- The landing page has several options to help with navigation. They include a navigation bar at the top as well as multiple pictures that link to the relevant part of their respective pages. 
+- The next 3 pages provide the bulk of the content and provide information about the selected places and activities. 
+- The following page, Getting Around aims to direct the user towards using public transport and provides snippets of information regarding each type. 
+-On the final page the user will find a form to sign up for a newsletter and it gives various options to chose from for personalised recommendations. 
 
 ### Existing Features
 
@@ -21,38 +25,66 @@ I hope you'll find the information contained within both useful and inspiring an
 
 - __The Homepage main image__
  
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page includes a photograph with caption to show the visitor the spectacular wievs of Budapest.
+  - This will grab their attention and provide an eye catching imtroduction to the content.
 
-![Landing Page](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-image.jpg)
+![Landing Page Image](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-image.jpg)
 
-- __Club Ethos Section__
+- __Introduction Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - A short introduction containing relevant and interesting information about the city of Budapest. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+- __Places to see section__
 
-- __Meetup Times section__
+  - This section introduces the visitor to a handful of recommenced sights of Budapest.
+  - The images contain clickable links that direct the visitor to the relevant page and section.
+  - The layout of the site allows for changing the current selection or adding more sights a later date.
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+![Introduction & Places](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __Things to do Section__
+
+  - The section contains a few images of the recommended activities. The images contain clickable links that direct the visitor to the relevan page and section.
+
+![Things to do](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+
+  __Where to stay Section__
+
+  - The section shows the visitor eye catching images of a small selection of hotels. Again the images are also clickable links taking the user to the relevant page and section.
+
+![Where to stay](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+
+  __Budapest on video__
+
+  - This section contains a Youtube video showing various sights of Budapest. More videos can be added later.
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the official social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - These sites contain more up to date information regarding places, activities and events in Budapest.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
 
-- __Gallery__
+- __Places to see__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Places to see](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+
+- __Things to do__
+
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+
+![Things to do](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+
+- __Where to stay__
+
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+
+![Where to stay](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
 
 - __The Sign Up Page__
 
