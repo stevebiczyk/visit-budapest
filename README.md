@@ -4,7 +4,7 @@ The Visit Budapest website was created to help people plan a short visit to Buda
 I hope you'll find the information contained within both useful and inspiring and you'll enjoy your visit to Budapest!
  
 
-[Homepage](https://github.com/stevebiczyk/visit-budapest/media/homepage-top.jpg)
+[Homepage](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-top.jpg)
 
 ## Features 
 
