@@ -8,23 +8,23 @@ I hope you'll find the information contained within both useful and inspiring an
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- The website consists of six pages. The landing page has several options to help with navigation. They include a navigation bar at the top as well as multiple pictures that link to the relevant part of their respective pages. The following 3 pages provide the bulk of the content and provide information about the selected places and activities. The following page, Getting Around aims to direct the user towards using public transport and provides snippets of information regarding each type. On the final the user will find a form to sign up for a newsletter and it gives various options to chose for personalised recommendations. 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Located at the top of all six pages, the full responsive navigation bar includes links to the  Home page, Places to see, and Newsletter page and is identical in each page to allow for easy navigation.
+  - The user can navigate back and forth between the various pages of the website by clicking on the name of each page displayed along the bar.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-navigation.jpg)
 
-- __The landing page image__
-
+- __The Homepage main image__
+ 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-image.jpg)
 
 - __Club Ethos Section__
 
