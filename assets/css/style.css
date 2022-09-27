@@ -224,6 +224,8 @@ h1 {
   }
 
 
+ 
+
 .signup-section {
     clear: left;
     max-width: 80%;
@@ -280,6 +282,28 @@ h1 {
 .signup-button:hover {
     background-color: #f67445;
     color: #068304;
+}
+
+ /* Footer with social media links */
+
+ footer {
+    height: 150px;
+    padding: 20px 0;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media Queries*/
@@ -343,11 +367,11 @@ h1 {
  }
 
 
-#main-header {
+/* #main-header {
     padding-top: .5em;
 	padding-bottom: .5em;
     background-color: #fafa;
-}
+}*/
 
  
 .header2, .header2 > p {
