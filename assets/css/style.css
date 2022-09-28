@@ -285,7 +285,23 @@ a {
 
 .signup-button:hover {
     background-color: #f67445;
-    color: #068304;
+    color: #252525
+}
+
+.reset-button {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #0d59e8;
+    color: #fff;
+    display: block;
+}
+
+.reset-button:hover {
+    background-color: #45f645;
+    color: #0d59e8;
 }
 
 /* Footer with social media links */
