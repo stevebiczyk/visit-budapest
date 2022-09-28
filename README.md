@@ -104,7 +104,7 @@ All links tested and found to be working correctly.
 
 All html and css files were checked for correct indentation and the text was checked for typos numerous times, both in the source code and on the finished webpage.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The website was opened both in Google Chrome and Microsoft Edge browsers and all pages displayed correctly
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
@@ -114,9 +114,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 
-
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator]
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
