@@ -1,8 +1,11 @@
+/* Import fonts from Google Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 /* Remove default styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +48,6 @@ h1 {
 
 
 #main-logo {
-    font-family: Montserrat, sans-serif;
     margin-left: 2rem;
     font-size: 300%;
     font-weight: bold;
@@ -252,7 +254,7 @@ a {
     padding: 30px;
 }
 
-.signup-form>h3 {
+.signup-form > h3 {
     padding: 20px 0;
 }
 
