@@ -4,7 +4,7 @@ The Visit Budapest website was created to help people plan a short visit to Buda
 I hope you'll find the information contained within both useful and inspiring and you'll enjoy your visit to Budapest!
  
 
-![Homepage](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-top.jpg)
+![Homepage](https://github.com/stevebiczyk/visit-budapest/blob/main/media/homepage-top.jpg)
 
 ## Features 
 
@@ -28,7 +28,7 @@ I hope you'll find the information contained within both useful and inspiring an
   - The landing page includes a photograph with caption to show the visitor the spectacular wievs of Budapest.
   - This will grab their attention and provide an eye catching imtroduction to the content.
 
-![Landing Page Image](https://github.com/stevebiczyk/visit-budapest/tree/main/media/homepage-image.jpg)
+![Landing Page Image](https://github.com/stevebiczyk/visit-budapest/blob/main/media/homepage-image.jpg)
 
 - __Introduction Section__
 
@@ -40,19 +40,19 @@ I hope you'll find the information contained within both useful and inspiring an
   - The images contain clickable links that direct the visitor to the relevant page and section.
   - The layout of the site allows for changing the current selection or adding more sights a later date.
 
-![Introduction & Places](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Introduction & Places to See](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
 
 - __Things to do Section__
 
   - The section contains a few images of the recommended activities. The images contain clickable links that direct the visitor to the relevan page and section.
 
-![Things to do](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Things to do]()
 
   __Where to stay Section__
 
   - The section shows the visitor eye catching images of a small selection of hotels. Again the images are also clickable links taking the user to the relevant page and section.
 
-![Where to stay](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Where to stay]()
 
   __Budapest on video__
 
@@ -60,47 +60,53 @@ I hope you'll find the information contained within both useful and inspiring an
 
 - __The Footer__ 
 
-  - The footer section includes links to the official social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the official social media sites for Visit Budapest. Due to the lack of Youtube account that link will take the user to the Youtube homepage. The links will open to a new tab to allow easy navigation for the user. 
   - These sites contain more up to date information regarding places, activities and events in Budapest.
 
-![Footer](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Footer]()
 
-- __Places to see__
+- __Places to see page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page contains a short prologue followed by text and images showing and describing 3 selected places to visit in Budapest.
+  - The design of the page allows for easy addition of content in the future. 
 
-![Places to see](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Places to see page]()
 
-- __Things to do__
+- __Things to do page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page contains a short prologue followed by text and images showing and describing 3 selected activities to try in Budapest.
+  - The design of the page allows for easy addition of content in the future. 
 
-![Things to do](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Things to do]()
 
-- __Where to stay__
+- __Where to stay page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page contains a short prologue followed by text and images showing and describing 3 recommended hotels in Budapest.
+  - The text contains a brief introduction of each hotel and its facilities as well as mentioning other nearby tourist attractions.
+  - The design of the page allows for easy addition of content in the future. 
 
-![Where to stay](https://github.com/stevebiczyk/visit-budapest/tree/main/media/introduction-places.jpg)
+![Where to stay]()
 
-- __The Sign Up Page__
+- __The Getting Around Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will encourage the user to use public transport to get to the various locations described on the previous pages. 
+  - Various modes of transport are mentioned with a snippet of useful information for each.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Getting around]()
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __The Newsletter Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- This page contains a form that allows the user to sign up to receive a personalised newsletter providing further information.
+- As well as name and email address input boxes, a selection of checkboxes help the user to provide information about their interests.
 
 ### Features Left to Implement
 
-- Another feature idea
+- All of the pages allow for adding further information. On each page a map or links to a map could be added to help the user locate the places shown and plan ahead.
 
 ## Testing 
+
+
+All links tested etc
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
