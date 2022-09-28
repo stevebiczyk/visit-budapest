@@ -18,7 +18,7 @@ body {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0px;
-    min-width: 600px;
+    min-width: 360px;
 }
 
 
@@ -32,7 +32,6 @@ h1 {
 .header2 {
     text-align: left;
     padding: 20px 0;
-   /* margin: 20px 0; */
     font-size: 220%;
     font-weight: 400;
 }
@@ -77,7 +76,7 @@ h1 {
     text-decoration: underline;
 }
 
-#main-logo a:hover {
+#main-logo :hover {
     color: #718daa;
     text-decoration: underline;
 }
@@ -86,16 +85,16 @@ h1 {
     height: 700px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    /*position: relative;*/
 }
 
 #main-image1 {
     width: 100%;
-    height: 700px;
-    min-height: 600px;
+    height: 100vh;
+    /*min-height: 600px;*/
     display: block;
     background-size: 150% auto;
-    background: url('/assets/images/budapest-lead.jpg') no-repeat center center / cover;
+    background: url('/assets/images/budapest-lead1.jpg') no-repeat center center / cover;
 }
 
 #main-image2 {
@@ -139,10 +138,10 @@ h1 {
     font-size: 1rem;
     bottom: 1.5rem;
     left: 1.5rem;
-    position: absolute;
+    position: sticky;
     color: #fff; 
     font-size: 1.5rem;
-    clear: right;
+    clear: left;
     float: left;
     margin-bottom: 0em;
     margin-left: 1.5em;
@@ -339,15 +338,6 @@ h1 {
         margin: 20px auto;
     }
 
-      /*.places-row > div {
-        clear: both;
-        min-width: 360px;
-        height: 300px;
-        float: left;
-        padding: 10px;
-        margin: 0 auto;
-    } */
-
 
 }
 
@@ -360,11 +350,12 @@ h1 {
 #main-nav {
     clear: both;
     float: left;
+   /* text-justify: auto;
     margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
+    margin-bottom: 20px; */
 
  }
+
 
 
 /* #main-header {
@@ -376,6 +367,11 @@ h1 {
  
 .header2, .header2 > p {
     width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.index-section > p {
     text-align: center;
     margin: 0 auto;
 }
@@ -403,8 +399,9 @@ h1 {
 
 .signup-form {
     display: block;
-    min-width: 500px;
+    min-width: 360px;
     margin: 0 auto;
     text-align: left;
 }
-  }
+
+}
