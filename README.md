@@ -4,8 +4,6 @@ The Visit Budapest website was created to help people plan a short visit to Buda
 I hope you'll find the information contained within both useful and inspiring and you'll enjoy your visit to Budapest!
  
 
-![Homepage](https://github.com/stevebiczyk/visit-budapest/blob/main/media/homepage-top.jpg)
-
 ## Features 
 
 - The website consists of six pages. Each page includes a high resolution image near the top to catch the users eye. 
@@ -21,14 +19,12 @@ I hope you'll find the information contained within both useful and inspiring an
   - Located at the top of all six pages, the full responsive navigation bar includes links to the  Home page, Places to see, and Newsletter page and is identical in each page to allow for easy navigation.
   - The user can navigate back and forth between the various pages of the website by clicking on the name of each page displayed along the bar.
 
-![Nav Bar](https://github.com/stevebiczyk/visit-budapest/blob/main/media/homepage-navigation.jpg)
-
 - __The Homepage main image__
  
   - The landing page includes a photograph with caption to show the visitor the spectacular wievs of Budapest.
   - This will grab their attention and provide an eye catching imtroduction to the content.
 
-![Landing Page Image](https://github.com/stevebiczyk/visit-budapest/blob/main/media/homepage-image.jpg)
+![Homepage Image](https://github.com/stevebiczyk/visit-budapest/blob/main/media/homepage-top.jpg)
 
 - __Introduction Section__
 
@@ -40,19 +36,15 @@ I hope you'll find the information contained within both useful and inspiring an
   - The images contain clickable links that direct the visitor to the relevant page and section.
   - The layout of the site allows for changing the current selection or adding more sights a later date.
 
-![Introduction & Places to See](https://github.com/stevebiczyk/visit-budapest/blob/main/media/introduction-places.jpg)
-
 - __Things to do Section__
 
   - The section contains a few images of the recommended activities. The images contain clickable links that direct the visitor to the relevan page and section.
-
-![Things to do](https://github.com/stevebiczyk/visit-budapest/blob/main/media/things-to-do.jpg)
 
   __Where to stay Section__
 
   - The section shows the visitor eye catching images of a small selection of hotels. Again the images are also clickable links taking the user to the relevant page and section.
 
-![Where to stay](https://github.com/stevebiczyk/visit-budapest/blob/main/media/where-to-stay.jpg)
+![Homepage Content](https://github.com/stevebiczyk/visit-budapest/blob/main/media/visitbudapest-home-content.jpg)
 
   __Budapest on video__
 
@@ -99,7 +91,7 @@ I hope you'll find the information contained within both useful and inspiring an
 - This page contains a form that allows the user to sign up to receive a personalised newsletter providing further information.
 - As well as name and email address input boxes, a selection of checkboxes help the user to provide information about their interests.
 
-![Newsletter](https://github.com/stevebiczyk/visit-budapest/blob/main/media/getting-around.jpg)
+![Newsletter](https://github.com/stevebiczyk/visit-budapest/blob/main/media/newsletter-form.jpg)
 
 ### Features Left to Implement
 
@@ -108,9 +100,9 @@ I hope you'll find the information contained within both useful and inspiring an
 ## Testing 
 
 
-All links tested etc
+All links tested and found to be working correctly.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All html and css files were checked for correct indentation and the text was checked for typos numerous times, both in the source code and on the finished webpage.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -121,6 +113,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing 
 
+
+
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
@@ -128,7 +122,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Filling in the form and pressing the submit button takes the user to the Code Institute form dumo website. Navigating back to the  
 
 ## Deployment
 

@@ -21,7 +21,7 @@ body {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0px;
-    min-width: 360px;
+    min-width: 400px; 
 }
 
 
@@ -100,9 +100,9 @@ h1 {
 
 #main-image1 {
     width: 100%;
-    height: 100vh;
+    height: 700px;
     display: block;
-    background-size: 150% auto;
+   /* background-size: 150% auto; */
     background: url('/assets/images/budapest-lead1.jpg') no-repeat center center / cover;
 }
 
@@ -397,12 +397,6 @@ footer {
         margin: 0 auto;
     }
 
-    #video {
-        max-width: 560px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .places-column {
         display: block;
         margin-left: auto;
@@ -433,3 +427,13 @@ footer {
     }
 
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .small-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+	
+} 
