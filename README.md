@@ -115,7 +115,7 @@ The responsiveness of all of the pages were checked on desktop, simulated tablet
 
 The performance of all pages was also checked in Lighthouse and the scores were very good.
 
-![Lighthouse Scores](https://github.com/stevebiczyk/visit-budapest/blob/main/media/lighhouse-report-homepage.jpg)
+![Lighthouse Scores](https://github.com/stevebiczyk/visit-budapest/blob/main/media/lighthouse-report-homepage.jpg)
 
 
 During deployment I found out the the wrong format of file paths were used both in the html and the css code. In spate of the error the page still displayed correctly when opened from Gitpod so this mistake wasn't noticed until publishing the website on Github Pages. The mistakes were corrected and the website was re-published.
@@ -155,6 +155,6 @@ Code snippets on websites such as Stack Overflow or W3schools.com were also chec
 ### Media
 
 - The photos on the website were from open source sites and are used for their original purpose.
-- The video embedded into the Homepage is from the Travel With Friends Youtube channel. [Travel with friends](https://www.youtube. com/watch?v=gBSlVYEBDQU)
+- The video embedded into the Homepage is from the Travel With Friends Youtube channel. [Travel with friends](https://www.youtube.com/watch?v=gBSlVYEBDQU)
 
 
