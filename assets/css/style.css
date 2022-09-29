@@ -103,7 +103,7 @@ h1 {
     height: 700px;
     display: block;
    /* background-size: 150% auto; */
-    background: url('/assets/images/budapest-lead1.jpg') no-repeat center center / cover;
+    background: url('../images/budapest-lead1.jpg') no-repeat center center / cover;
 }
 
 #main-image2 {
@@ -112,7 +112,7 @@ h1 {
     min-height: 600px;
     display: block;
     background-size: 150% auto;
-    background: url('/assets/images/visit_budapest.webp') no-repeat center center / cover;
+    background: url('../images/visit_budapest.webp') no-repeat center center / cover;
 }
 
 #main-image3 {
@@ -121,7 +121,7 @@ h1 {
     min-height: 600px;
     display: block;
     background-size: 150% auto;
-    background: url('/assets/images/szechenyi-bath-main.jpg') no-repeat center center / cover;
+    background: url('../images/szechenyi-bath-main.jpg') no-repeat center center / cover;
 }
 
 #main-image4 {
@@ -130,7 +130,7 @@ h1 {
     min-height: 600px;
     display: block;
     background-size: 150% auto;
-    background: url('/assets/images/four-seasons-gresham-large2.jpg') no-repeat center center / cover;
+    background: url('../images/four-seasons-gresham-large2.jpg') no-repeat center center / cover;
 }
 
 
